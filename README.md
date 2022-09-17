@@ -3,7 +3,7 @@
 Designed a simple File System having defined constraints using C++.  
 Implemented multiple functions such as create a file, list all files, delete the file, read and write the file.
 
-# Input
+## Input
 
 * Input is taken through Console.
 
@@ -20,7 +20,7 @@ Implemented multiple functions such as create a file, list all files, delete the
                   ex: mf file name "Hello worlds"   ====> Not supported
                   ex: mf filename "Hello worlds"    ====> Supported
                   
-# Commands
+## Commands
 
 * mf file-name filecontents
 	* first check for the uniqueness of the filename
@@ -56,7 +56,12 @@ Implemented multiple functions such as create a file, list all files, delete the
 * ls
 	* list all the files from the meta_data
 
-# Screenshots
+## How to run
+
+1. Download the repository in your local machine.
+2. Open terminal and run command "make", it will create an executable file of the code.
+
+## Screenshots
 
 ### "mf" command
 ![Screenshot from 2022-09-17 12-14-17](https://user-images.githubusercontent.com/29372200/190845137-15ea792a-e380-4d09-b878-54b4290c1530.png)
